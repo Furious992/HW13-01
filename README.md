@@ -437,17 +437,17 @@ Metasploitable содержит множество уязвимых служб. 
 
 
 1.3 Найденные уязвимости (3 примера)  
-  vsftpd 2.3.4 — Backdoor Command Execution (CVE-2011-2523)
-  Описание: Уязвимость позволяет выполнить произвольный код через backdoor в FTP-сервере.
-  Ссылка: https://www.exploit-db.com/exploits/17491
+  vsftpd 2.3.4 — Backdoor Command Execution (CVE-2011-2523)  
+  Описание: Уязвимость позволяет выполнить произвольный код через backdoor в FTP-сервере.  
+  Ссылка: https://www.exploit-db.com/exploits/17491  
 
-  UnrealIRCd 3.2.8.1 — Backdoor Command Execution
-  Описание: В IRC-сервере есть backdoor, позволяющий выполнить команды.
-  Ссылка: https://www.exploit-db.com/exploits/16922
+  UnrealIRCd 3.2.8.1 — Backdoor Command Execution  
+  Описание: В IRC-сервере есть backdoor, позволяющий выполнить команды.  
+  Ссылка: https://www.exploit-db.com/exploits/16922  
 
-  Samba 3.0.20 — Remote Code Execution (CVE-2007-2447)
-  Описание: Уязвимость в SMB-сервере позволяет выполнить код через username-параметр.
-  Ссылка: https://www.exploit-db.com/exploits/16320
+  Samba 3.0.20 — Remote Code Execution (CVE-2007-2447)  
+  Описание: Уязвимость в SMB-сервере позволяет выполнить код через username-параметр.  
+  Ссылка: https://www.exploit-db.com/exploits/16320  
 
 Задание 2
 Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
